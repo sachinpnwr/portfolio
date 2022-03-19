@@ -1,6 +1,6 @@
 .navbar{
     flex-direction: column;
-    height: auto;
+    height: 20vh;
     position: sticky;
     top: 0;
 }
@@ -15,6 +15,7 @@
 #home-container{
     flex-direction: column;
     justify-content: center;
+    margin-top: -20vh;
 }
 #bio p{
     line-height: 10vh;
