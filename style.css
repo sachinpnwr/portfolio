@@ -90,7 +90,7 @@ header{
     font-family: 'Cookie', cursive;
 }
 #profile-pic img{
-    width: 50vh;
+    width: 30vw;
     border-radius: 50%;
     margin-right: 15vw;
 }
@@ -107,6 +107,13 @@ h1{
     display: flex;
     justify-content:center ;
     padding: 0 5vw;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    padding: 0 5vw;
+    margin-bottom: 6vh;
+
 }
 #content{
     display: flex;
@@ -158,6 +165,9 @@ h1{
     align-items: center;
     justify-content: space-between;
     margin: 24vh 8vw 10vh 25vh ;
+}
+#about-pic img{
+    width: 30vw;
 }
 #about-bio p{
     margin: 0vh  1vw 0vh 7vw ;

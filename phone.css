@@ -1,0 +1,72 @@
+.navbar{
+    flex-direction: column;
+    height: auto;
+    position: sticky;
+    top: 0;
+}
+.txt_logo{
+    margin-left: 0;
+    font-size: 2rem;
+}
+.navbar ul li a {
+    padding: 9px;
+    font-size: small;
+}
+#home-container{
+    flex-direction: column;
+    justify-content: center;
+}
+#bio p{
+    line-height: 10vh;
+    font-size: 5rem;
+    margin-left: 0;
+}
+#bio{
+    text-align: center;
+    margin-top: 14vh;
+}
+#profile-pic img{
+    margin-top: 2vh;
+    margin-right: 0;
+    width: 45vw;
+}
+h1{
+    font-size: 2.7rem;
+}
+.skills-container{
+    flex-direction: column;
+}
+#skills-box{
+    width: 80vw;
+    margin: 2vh auto;
+}
+#project-box{
+    margin: 2vh auto;
+}
+#content h2{
+    font-size: 5vw;
+}
+#content2 img{
+    width: 80vw;
+}
+#about-me{
+    margin: 13vh 8vw 5vh 8vh;
+}
+#contact-box{
+    height: auto;
+    margin: 1vh auto;
+    display: flex;
+    flex-direction: column;
+}
+#content1 h2{
+    font-size: 3vw;
+}
+footer #name{
+    font-size: 2rem;
+}
+#copy {
+    font-size: 1rem;
+}
+#social-icons img {
+    height: 10vw;
+}
