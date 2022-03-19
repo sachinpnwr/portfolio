@@ -10,7 +10,7 @@
 }
 .navbar ul li a {
     padding: 9px;
-    font-size: small;
+    font-size: 3vw;
 }
 #home-container{
     flex-direction: column;
@@ -31,7 +31,7 @@
     width: 45vw;
 }
 h1{
-    font-size: 2.7rem;
+    font-size: 5vw;
 }
 .skills-container{
     flex-direction: column;
@@ -50,16 +50,23 @@ h1{
     width: 80vw;
 }
 #about-me{
-    margin: 13vh 8vw 5vh 8vh;
+    margin: 14vh 0vw 1vh 0vh;
+    display: flex;
+    flex-direction: column;
+}
+#about-bio p{
+    margin-top: 3vh;
 }
 #contact-box{
+    width: 80vw;
     height: auto;
     margin: 1vh auto;
     display: flex;
     flex-direction: column;
 }
-#content1 h2{
-    font-size: 3vw;
+#content1 h2 {
+    font-size: 7vw;
+    margin-top: 3vh;
 }
 footer #name{
     font-size: 2rem;
@@ -69,4 +76,7 @@ footer #name{
 }
 #social-icons img {
     height: 10vw;
+}
+.contact-container{
+    flex-direction: column;
 }
