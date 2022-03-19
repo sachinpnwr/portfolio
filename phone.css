@@ -1,6 +1,6 @@
 .navbar{
     flex-direction: column;
-    height: auto;
+    height: 8vh;
     position: sticky;
     top: 0;
 }
@@ -15,6 +15,7 @@
 #home-container{
     flex-direction: column;
     justify-content: center;
+    margin-top: -8vh;
 }
 #bio p{
     line-height: 10vh;
@@ -23,7 +24,7 @@
 }
 #bio{
     text-align: center;
-    margin-top: 14vh;
+    margin-top: 10vh;
 }
 #profile-pic img{
     margin-top: 2vh;
