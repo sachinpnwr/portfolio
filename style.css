@@ -1,0 +1,228 @@
+/* font-family: 'Hurricane', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxs;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-color: rgb(104, 187, 212);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.txt_logo{
+    margin-left: 2vw;
+    cursor:default;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: black;
+}
+#name{
+    /* font-weight: bold; */
+    letter-spacing: 0.1em;
+    font-family: 'Montserrat', sans-serif;
+}
+#name span{
+    color: rgb(0, 38, 255);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style-type: none;
+    font-size: 1.1rem;
+    letter-spacing: 0.1em;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px ;
+}
+.navbar ul li:hover{
+    background-color: white;
+    border-radius: 12px;
+    /* border: bottom right radius 0;  */
+    color: black;
+}
+.navbar ul li a:hover{
+    color: black;
+    font-weight: bold;
+}
+#home-container{
+    margin-top: -40px;
+    height: 100vh;
+    background-color: rgb(69, 147, 219);
+    /* background-image: url(https://www.eschoolnews.com/files/2021/02/coding-platform-STEM-code.jpg) ; */
+    /* background-repeat:no-repeat; */
+    /* background-size: 100vw 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 3rem;
+    letter-spacing: 7px;
+    line-height: 60px;
+    
+    color: black;
+}
+#bio p{
+    margin-left: 10vw;
+    font-stretch: expanded;
+    font-family: 'Cookie', cursive;
+    font-size: 5.5rem;
+    line-height: 16vh;
+}
+#bio span{
+    font-family: 'Cookie', cursive;
+}
+#profile-pic img{
+    width: 50vh;
+    border-radius: 50%;
+    margin-right: 15vw;
+}
+h1{
+    position: relative ;
+    top: 8vh;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    margin: 10vh auto;
+    text-align: center;
+}
+
+.skills-container{
+    display: flex;
+    justify-content:center ;
+    padding: 0 5vw;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#content h2{
+    /* margin: 0 1vw 0 5vw; */
+    text-align: center;
+    font-size: 2.5vw;
+}
+#content ul{
+    /* margin: 0 1vw 0 5vw; */
+    text-align: center;
+    font-size: 0.9rem;
+}
+#content ul li{
+    margin: 3vh 0 ;
+}
+
+#skills-box{
+    /* height: 60vh; */
+    width: 27vw;
+    border: 1px solid rgb(6, 61, 94);
+    border-radius: 12px;
+    margin: 10vh auto;
+    padding: 4vh 0;
+    box-shadow: rgb(64, 133, 236) 1vh 2vh 4vh -1vh;
+}
+#skills-box img{
+    width: 6vw;
+}
+#skills-box ul li{
+    list-style-type: none;
+}
+#project-box{
+    border: 1px solid rgb(6, 61, 94);
+    border-radius: 12px;
+    margin: 10vh auto;
+    padding: 2vh;
+    box-shadow: rgb(64, 133, 236) 1vh 2vh 4vh -1vh;
+}
+#about-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24vh 8vw 10vh 25vh ;
+}
+#about-bio p{
+    margin: 0vh  1vw 0vh 7vw ;
+}
+#about-bio span{
+    color: red;
+    font-weight: bold;
+}
+#content2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content2 img{
+    width: 40vw;
+}
+#contact-box{
+    height: 35vh;
+    width: 27vw;
+    border: 1px solid rgb(6, 61, 94);
+    border-radius: 12px;
+    margin: auto;
+    display: flex;
+    margin: 10vh auto;
+    box-shadow: rgb(64, 133, 236) 1vh 2vh 4vh -1vh;
+    /* flex-direction: column; */
+}
+#contact-box img{
+    margin: 1px 10vw;
+    width: 6vw;
+}
+#content1{
+    margin: auto;
+}
+#content1 h2{
+    /* margin: 0 1vw 0 5vw; */
+    text-align: center;
+    font-size: 2.5vw;
+}
+#content1 ul{
+    margin: 3vh auto;
+    text-align: center;
+    font-size: 0.9rem;
+}
+#content1 ul li{
+    margin: 0 ;
+}
+#contact-box ul li{
+    list-style-type: none;
+}
+footer{
+    background-color: rgb(104, 187, 212);
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer #name{
+    font-size: 1.6rem;
+    font-weight:900;
+}
+#copy{
+    font-size: .7rem;
+}
+#social-icons img{
+    height: 3vw;
+}
