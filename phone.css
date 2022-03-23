@@ -10,6 +10,10 @@ header{
     margin-left: 0;
     font-size: 2rem;
 }
+.navbar ul li{
+    position: relative;
+    top: -0.5vh;
+}
 .navbar ul li a {
     padding: 9px;
     font-size: 3vw;
