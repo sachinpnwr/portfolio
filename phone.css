@@ -1,3 +1,7 @@
+header{
+    position: sticky;
+    top: -5vh;
+}
 .navbar{
     flex-direction: column;
     height: 8vh;
@@ -8,10 +12,15 @@
     margin-left: 0;
     font-size: 2rem;
 }
+.navbar ul li{
+    position: relative;
+    top: -0.4vh;
+}
 .navbar ul li a {
     padding: 9px;
-    font-size: 3vw;
+    font-size: 3.5vw;
     margin-top:-2vh;
+    margin-top: -2vh;
 }
 #home-container{
     flex-direction: column-reverse;
@@ -48,6 +57,7 @@ h1{
 
 #content h2{
     font-size: 5vw;
+    letter-spacing: 1vw;
 }
 #content2 img{
     width: 80vw;
@@ -68,14 +78,15 @@ h1{
     flex-direction: column;
 }
 #content1 h2 {
-    font-size: 7vw;
+    font-size: 5vw;
     margin-top: 3vh;
+    letter-spacing: 1vw;
 }
 footer #name{
     font-size: 2rem;
 }
 #copy {
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 #social-icons img {
     height: 10vw;
