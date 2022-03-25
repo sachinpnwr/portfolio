@@ -83,14 +83,14 @@ header{
     margin-left: 10vw;
     font-stretch: expanded;
     font-family: 'Cookie', cursive;
-    font-size: 5.5rem;
+    font-size: 14.5vh;
     line-height: 16vh;
 }
 #bio span{
     font-family: 'Cookie', cursive;
 }
 #profile-pic img{
-    width: 30vw;
+    width: 45vh;
     border-radius: 50%;
     margin-right: 15vw;
 }
@@ -229,7 +229,7 @@ h1{
 }
 footer{
     background-color: rgb(104, 187, 212);
-    height: 25vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,10 +238,12 @@ footer{
 footer #name{
     font-size: 1.6rem;
     font-weight:900;
+    margin-top: 5vh;
 }
 #copy{
     font-size: .7rem;
 }
 #social-icons img{
     height: 3vw;
+    margin-bottom: 5vh;
 }

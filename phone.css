@@ -1,16 +1,16 @@
 header{
     position: sticky;
-    top: -5vh;
+    top: -2.2em;
 }
 .navbar{
     flex-direction: column;
-    height: 8vh;
-    position: sticky;
-    top: 0;
+    height: auto;
+    /* position: sticky; */
+    /* top: 0; */
 }
 .txt_logo{
     margin-left: 0;
-    font-size: 2rem;
+    font-size: 2em;
 }
 .navbar ul li{
     position: relative;
@@ -18,7 +18,7 @@ header{
 }
 .navbar ul li a {
     padding: 9px;
-    font-size: 3.5vw;
+    font-size: .7em;
     margin-top:-2vh;
     margin-top: -2vh;
 }
@@ -83,13 +83,13 @@ h1{
     letter-spacing: 1vw;
 }
 footer #name{
-    font-size: 2rem;
+    font-size: 2em;
 }
 #copy {
-    font-size: 0.7rem;
+    font-size: 0.7em;
 }
 #social-icons img {
-    height: 10vw;
+    height: 2em;
 }
 .contact-container{
     flex-direction: column;
