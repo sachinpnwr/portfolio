@@ -7,6 +7,7 @@
 html{
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
+    /* background: rgb(114, 215, 255); */
 }
 header{
     position: sticky;
@@ -66,7 +67,8 @@ header{
 #home-container{
     margin-top: -40px;
     height: 100vh;
-    background-color: rgb(69, 147, 219);
+    /* background-color: rgb(69, 147, 219); */
+    background-color: rgb(104, 187, 212);
     /* background-image: url(https://www.eschoolnews.com/files/2021/02/coding-platform-STEM-code.jpg) ; */
     /* background-repeat:no-repeat; */
     /* background-size: 100vw 100vh; */
@@ -82,12 +84,12 @@ header{
 #bio p{
     margin-left: 10vw;
     font-stretch: expanded;
-    font-family: 'Cookie', cursive;
-    font-size: 14.5vh;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
     line-height: 16vh;
 }
 #bio span{
-    font-family: 'Cookie', cursive;
+    font-family: 'Permanent Marker', cursive;
 }
 #profile-pic img{
     width: 45vh;
@@ -141,14 +143,15 @@ h1{
 #skills-box{
     /* height: 60vh; */
     width: 27vw;
-    border: 1px solid rgb(6, 61, 94);
+    /* border: 1px solid rgb(6, 61, 94); */
     border-radius: 12px;
     margin: 10vh auto;
     padding: 4vh 0;
-    box-shadow: rgb(64, 133, 236) 1vh 2vh 4vh -1vh;
+    box-shadow: rgb(121, 123, 126) 1vh 2vh 4vh -1vh, rgb(255, 255, 255) -2vh -2vh 2vh -1vh;
 }
 #skills-box:hover{
     box-shadow: inset 2vh 2vh 4vh -2vh rgb(121, 169, 236);
+    box-shadow: rgb(121, 123, 126) inset 1vh 2vh 4vh -3vh, rgb(255, 255, 255) inset -2vh -2vh 2vh -1vh;
 
 }
 #skills-box img{
@@ -158,11 +161,10 @@ h1{
     list-style-type: none;
 }
 #project-box{
-    border: 1px solid rgb(6, 61, 94);
-    border-radius: 12px;
+    /* border: 1px solid rgb(6, 61, 94); */
+    /* border-radius: 12px; */
     margin: 10vh auto;
-    padding: 2vh;
-    box-shadow: rgb(64, 133, 236) 1vh 2vh 4vh -1vh;
+    
 }
 
 #about-me{
@@ -175,7 +177,8 @@ h1{
     width: 30vw;
 }
 #about-bio p{
-    margin: 0vh  1vw 0vh 7vw ;
+    margin-left: 4vw;
+    text-align: justify;
 }
 #about-bio span{
     color: red;
@@ -188,20 +191,22 @@ h1{
 }
 #content2 img{
     width: 40vw;
+    /* border-radius: 12px; */
+    box-shadow: rgb(121, 123, 126) 1vh 2vh 4vh -1vh, rgb(255, 255, 255) -2vh -2vh 2vh -1vh;
 }
 #contact-box{
-    height: 35vh;
+    height: auto;
     width: 27vw;
-    border: 1px solid rgb(6, 61, 94);
+    /* border: 1px solid rgb(6, 61, 94); */
     border-radius: 12px;
     margin: auto;
     display: flex;
     margin: 10vh auto;
-    box-shadow: rgb(64, 133, 236) 1vh 2vh 4vh -1vh;
+    box-shadow: rgb(121, 123, 126) 1vh 2vh 4vh -1vh, rgb(255, 255, 255) -2vh -2vh 2vh -1vh;
     /* flex-direction: column; */
 }
 #contact-box:hover{
-    box-shadow: inset 2vh 2vh 3vh -2vh rgb(27, 32, 39);
+    box-shadow: rgb(121, 123, 126) inset 1vh 2vh 4vh -3vh, rgb(255, 255, 255) inset -2vh -2vh 2vh -1vh;
 
 }
 #contact-box img{
