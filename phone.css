@@ -1,6 +1,6 @@
 header{
     position: sticky;
-    top: -2.2em;
+    top: -3.1vh;
 }
 .navbar{
     flex-direction: column;
@@ -10,7 +10,8 @@ header{
 }
 .txt_logo{
     margin-left: 0;
-    font-size: 2em;
+    font-size: 3vh;
+    letter-spacing: 1vw;
 }
 .navbar ul li{
     position: relative;
@@ -47,6 +48,7 @@ h1{
 }
 .skills-container{
     flex-direction: column;
+    margin-top: 13vh;
 }
 #skills-box{
     width: 80vw;
@@ -80,7 +82,7 @@ h1{
 #contact-box{
     width: 80vw;
     height: auto;
-    margin: 1vh auto;
+    margin: 2vh auto;
     display: flex;
     flex-direction: column;
 }
@@ -90,7 +92,7 @@ h1{
     letter-spacing: 1vw;
 }
 footer #name{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 #copy {
     font-size: 0.7em;
@@ -100,4 +102,5 @@ footer #name{
 }
 .contact-container{
     flex-direction: column;
+    margin-top: 13vh;
 }
