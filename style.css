@@ -66,7 +66,7 @@ header{
 }
 #home-container{
     margin-top: -40px;
-    height: 100vh;
+    min-height: 100vh;
     /* background-color: rgb(69, 147, 219); */
     background-color: rgb(104, 187, 212);
     /* background-image: url(https://www.eschoolnews.com/files/2021/02/coding-platform-STEM-code.jpg) ; */
@@ -254,4 +254,24 @@ footer #name{
 #social-icons img{
     height: 3vw;
     margin-bottom: 5vh;
+}
+.reveal{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+.reveal1{
+    position: relative;
+    transform:scale(1.5);
+    opacity: 0;
+}
+.active1{
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 1s ease;
 }
