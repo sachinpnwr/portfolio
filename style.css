@@ -65,10 +65,13 @@ header{
     font-weight: bold;
 }
 #home-container{
+    background-color: rgb(104, 187, 212);
+}
+.hi{
     margin-top: -40px;
     min-height: 100vh;
     /* background-color: rgb(69, 147, 219); */
-    background-color: rgb(104, 187, 212);
+    
     /* background-image: url(https://www.eschoolnews.com/files/2021/02/coding-platform-STEM-code.jpg) ; */
     /* background-repeat:no-repeat; */
     /* background-size: 100vw 100vh; */
