@@ -273,11 +273,11 @@ footer #name{
 }
 .reveal1{
     position: relative;
-    transform:scale(1.5);
+    /* transform:scale(1.5); */
     opacity: 0;
 }
 .active1{
     transform: translateY(0);
     opacity: 1;
-    transition: all 1s ease;
+    transition: all 1s ease-in-out;
 }
