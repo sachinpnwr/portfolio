@@ -19,3 +19,14 @@ setTimeout(()=>{
     hi.classList.add('active1')
     hi.classList.remove('reveal1')
 },500)
+ window.addEventListener('scroll',()=>{
+     let navbar = document.getElementsByClassName('navbar')[0];
+     let windowPosition = window.scrollY > 300;
+     navbar.classList.toggle('scrolling-active',windowPosition)
+ })
+
+var wlcm_bg=document.getElementsByClassName('wlcm-bg')[0]
+setTimeout(()=>{
+    wlcm_bg.classList.add('close')
+    console.log('hey')
+},3000)

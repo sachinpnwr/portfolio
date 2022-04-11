@@ -4,7 +4,7 @@ header{
 }
 .navbar{
     flex-direction: column;
-    height: auto;
+    height: 7vh;
     /* position: sticky; */
     /* top: 0; */
 }
@@ -12,6 +12,9 @@ header{
     margin-left: 0;
     font-size: 3vh;
     letter-spacing: 1vw;
+}
+.navbar ul{
+    margin-right: 0;
 }
 .navbar ul li{
     position: relative;
@@ -22,6 +25,10 @@ header{
     font-size: .7em;
     margin-top:-2vh;
     margin-top: -2vh;
+}
+#home{
+    position: relative;
+    top: -7vh;
 }
 .hi{
     flex-direction: column-reverse;
@@ -39,9 +46,10 @@ header{
     margin-top: 4vh;
 }
 #profile-pic img{
-    margin-top: 2vh;
+    margin-top: 17vh;
     margin-right: 0;
     width: 4em;
+    /* filter:blur(); */
 }
 h1{
     font-size: 5vw;

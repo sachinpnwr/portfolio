@@ -9,14 +9,94 @@ html{
     font-family: 'Montserrat', sans-serif;
     background: rgb(233, 233, 233);
 }
+.wlcm-bg{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background: #000;
+    z-index: 100;
+}
+.wlcm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.name1{
+    display: flex;
+}
+.wlcm .st{
+    font-size: 35px;
+    color: red;
+    font-weight:bolder;
+    animation: slideup 2.5s ease 1;
+    opacity: 0;
+}
+.wlcm .lt{
+    font-size: 35px;
+    color: white;
+    opacity: 0;
+    animation: slideup 2.3s ease 0.2s 1;
+    
+}
+.wlcm p{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 22px;
+    padding: 0 50px;
+    text-align: center;
+    animation: fade 2.3s ease 0.4s 1;
+    opacity: 0;
+}
+.close{
+    /* transition: all 1s ease;
+    top: -100vh; */
+    display: none;
+}
+@keyframes slideup {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    20%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    85%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    
+}
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
 header{
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 10;
 }
 .navbar{
-    background-color: rgb(104, 187, 212);
+    /* background-color: rgb(104, 187, 212); */
+    background: transparent;
     height: 40px;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,13 +115,14 @@ header{
     font-family: 'Montserrat', sans-serif;
 }
 #name span{
-    color: rgb(0, 38, 255);
+    color: red;
     font-family: 'Montserrat', sans-serif;
     
 }
 
 .navbar ul{
     display: flex;
+    margin-right: 30px;
 }
 .navbar ul li{
     list-style-type: none;
@@ -54,16 +135,27 @@ header{
     text-decoration: none;
     padding: 10px ;
 }
-.navbar ul li:hover{
+/* .navbar ul li:hover{
     background-color: white;
     border-radius: 12px;
-    /* border: bottom right radius 0;  */
+    border: bottom right radius 0; 
     color: black;
-}
+} */
 .navbar ul li a:hover{
-    color: black;
+    color: red;
     font-weight: bold;
+    transition: all 0.5s ease;
 }
+.scrolling-active{
+    background: #000;
+    transition: all 1s ease;
+}
+.scrolling-active #name{
+    color: white;
+}
+/* .scrolling-active #name span{
+    text-shadow: 0px 2px 3px white;
+} */
 #home-container{
     background-color: rgb(104, 187, 212);
     overflow: hidden;
@@ -241,7 +333,8 @@ h1{
     list-style-type: none;
 }
 footer{
-    background-color: rgb(104, 187, 212);
+    /* background-color: rgb(104, 187, 212); */
+    background: rgb(0, 0, 0);
     height: auto;
     display: flex;
     flex-direction: column;
@@ -249,12 +342,17 @@ footer{
     justify-content: center;
 }
 footer #name{
+    color: white;
     font-size: 1.6rem;
     font-weight:900;
     margin-top: 5vh;
 }
+/* footer #name span{
+    text-shadow: 0px 2px 3px white;
+} */
 #copy{
     font-size: .7rem;
+    color: white;
 }
 #social-icons img{
     height: 3vw;
