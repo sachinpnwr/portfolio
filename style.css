@@ -50,9 +50,9 @@ html{
     opacity: 0;
 }
 .close{
-    /* transition: all 1s ease;
-    top: -100vh; */
     display: none;
+    /* transition: all 1s ease; */
+    /* top: -100vh; */
 }
 @keyframes slideup {
     0%{
@@ -239,7 +239,10 @@ h1{
 #content ul li span{
     font-weight: bold;
 }
-
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+}
 #skills-box{
     /* height: 60vh; */
     width: 27vw;
