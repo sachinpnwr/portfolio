@@ -26,29 +26,38 @@ header{
     margin-top:-2vh;
     margin-top: -2vh;
 }
+#home-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 #home{
     position: relative;
     top: -7vh;
+
 }
 .hi{
     flex-direction: column-reverse;
     justify-content: center;
-    margin-top: -8vh;
+    align-items: center;
+    /* margin-top: -8vh; */
 }
 #bio p{
-    line-height: 10vh;
+    line-height: 70px;
     font-size: 1.1em;
     margin-left: 0;
     text-align: center;
 }
 #bio{
     text-align: center;
-    margin-top: 4vh;
+    /* margin-top: 4vh; */
+    font-size: 60px;
 }
 #profile-pic img{
-    margin-top: 17vh;
+    /* margin-top: 17vh; */
     margin-right: 0;
-    width: 4em;
+    width: 195px;
     /* filter:blur(); */
 }
 h1{
