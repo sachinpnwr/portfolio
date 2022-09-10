@@ -278,6 +278,10 @@ h1{
     margin: 50px auto;
     height: auto;
 }
+#content2 img:hover{
+    box-shadow: inset 2vh 2vh 4vh -2vh rgb(121, 169, 236);
+    box-shadow: rgb(121, 123, 126) inset 1vh 2vh 4vh -3vh, rgb(255, 255, 255) inset -2vh -2vh 2vh -1vh;
+}
 
 #about-me{
     display: flex;
