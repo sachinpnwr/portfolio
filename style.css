@@ -292,6 +292,7 @@ h1{
 }
 #about-pic img{
     width: 22vw;
+    border-radius: 50%;
 }
 #about-bio p{
     margin-left: 4vw;
