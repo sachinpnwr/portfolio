@@ -71,7 +71,7 @@ h1{
     width: 80vw;
     margin: 2vh auto;
 }
-#project-box{
+.project-box{
     margin: 2vh auto;
 }
 
@@ -82,7 +82,7 @@ h1{
 #content ul li span{
     font-weight: bold;
 }
-#content2 img{
+.content2 img{
     width: 80vw;
 }
 #about-me{

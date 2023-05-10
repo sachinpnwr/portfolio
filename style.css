@@ -1,46 +1,53 @@
 /* font-family: 'Hurricane', cursive; */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
     background: rgb(233, 233, 233);
 }
-.wlcm-bg{
+
+.wlcm-bg {
     height: 100vh;
     width: 100vw;
     position: fixed;
     background: #000;
     z-index: 100;
 }
-.wlcm{
+
+.wlcm {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
-.name1{
+
+.name1 {
     display: flex;
 }
-.wlcm .st{
+
+.wlcm .st {
     font-size: 35px;
     color: red;
-    font-weight:bolder;
+    font-weight: bolder;
     animation: slideup 2.5s ease 1;
     opacity: 0;
 }
-.wlcm .lt{
+
+.wlcm .lt {
     font-size: 35px;
     color: white;
     opacity: 0;
     animation: slideup 2.3s ease 0.2s 1;
-    
+
 }
-.wlcm p{
+
+.wlcm p {
     color: #fff;
     margin-top: 20px;
     font-size: 22px;
@@ -49,50 +56,61 @@ html{
     animation: fade 2.3s ease 0.4s 1;
     opacity: 0;
 }
-.close{
+
+.close {
     display: none;
     /* transition: all 1s ease; */
     /* top: -100vh; */
 }
+
 @keyframes slideup {
-    0%{
+    0% {
         transform: translateY(100px);
         opacity: 0;
     }
-    20%{
+
+    20% {
         transform: translateY(0);
         opacity: 1;
     }
-    85%{
+
+    85% {
         transform: translateY(0);
         opacity: 1;
     }
-    100%{
+
+    100% {
         transform: translateY(-100px);
         opacity: 0;
     }
-    
+
 }
+
 @keyframes fade {
-    0%{
+    0% {
         opacity: 0;
     }
-    30%{
+
+    30% {
         opacity: 1;
     }
-    80%{
+
+    80% {
         opacity: 1;
     }
-    100%{
+
+    100% {
         opacity: 0;
     }
 }
-header{
+
+header {
     position: fixed;
     top: 0;
     z-index: 10;
 }
-.navbar{
+
+.navbar {
     /* background-color: rgb(104, 187, 212); */
     background: transparent;
     height: 40px;
@@ -101,62 +119,71 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-.txt_logo{
+
+.txt_logo {
     margin-left: 2vw;
-    cursor:default;
+    cursor: default;
     font-size: 1.2rem;
     font-weight: bold;
     letter-spacing: 0.1em;
     color: black;
 }
-#name{
+
+#name {
     /* font-weight: bold; */
     /* letter-spacing: 0.1em; */
     font-family: 'Montserrat', sans-serif;
 }
-#name span{
+
+#name span {
     color: red;
     font-family: 'Montserrat', sans-serif;
-    
+
 }
 
-.navbar ul{
+.navbar ul {
     display: flex;
     margin-right: 30px;
 }
-.navbar ul li{
+
+.navbar ul li {
     list-style-type: none;
     font-size: 1.1rem;
     letter-spacing: 0.1em;
     font-family: 'Montserrat', sans-serif;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     color: white;
     text-decoration: none;
-    padding: 10px ;
+    padding: 10px;
 }
+
 /* .navbar ul li:hover{
     background-color: white;
     border-radius: 12px;
     border: bottom right radius 0; 
     color: black;
 } */
-.navbar ul li a:hover{
+.navbar ul li a:hover {
     color: red;
     font-weight: bold;
     transition: all 0.5s ease;
 }
-.scrolling-active{
+
+.scrolling-active {
     background: #000;
     transition: all 1s ease;
 }
-.scrolling-active #name{
+
+.scrolling-active #name {
     color: white;
 }
+
 /* .scrolling-active #name span{
     text-shadow: 0px 2px 3px white;
 } */
-#home-container{
+#home-container {
     /* background-color: rgb(104, 187, 212); */
     background-image: linear-gradient(to bottom, rgb(109, 212, 243), black);
     overflow: hidden;
@@ -164,45 +191,50 @@ header{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
-.hi{
-    margin:100px 0 100px 0;
+
+.hi {
+    margin: 100px 0 100px 0;
     /* min-height: 100vh; */
     height: auto;
     /* margin-bottom: 30px; */
     /* background-color: rgb(69, 147, 219); */
-    
+
     /* background-image: url(https://www.eschoolnews.com/files/2021/02/coding-platform-STEM-code.jpg) ; */
     /* background-repeat:no-repeat; */
     /* background-size: 100vw 100vh; */
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     font-size: 3rem;
     width: 100vw;
     letter-spacing: 7px;
     line-height: 60px;
-    
+
     color: black;
 }
-#bio p{
+
+#bio p {
     margin-left: 10vw;
     font-stretch: expanded;
     font-family: 'Permanent Marker', cursive;
     font-size: 1.5em;
     line-height: 85px;
 }
-#bio span{
+
+#bio span {
     font-family: 'Permanent Marker', cursive;
 }
-#profile-pic img{
+
+#profile-pic img {
     width: 250px;
     border-radius: 50%;
     margin-right: 15vw;
 }
-h1{
-    position: relative ;
+
+h1 {
+    position: relative;
     top: 8vh;
     font-size: 3rem;
     letter-spacing: 0.5rem;
@@ -210,19 +242,21 @@ h1{
     text-align: center;
 }
 
-.skills-container{
+.skills-container {
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     padding: 0 5vw;
 }
-.contact-container{
+
+.contact-container {
     display: flex;
     justify-content: center;
     padding: 0 5vw;
     margin-bottom: 6vh;
 
 }
-#content{
+
+#content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -231,28 +265,34 @@ h1{
     justify-content: center;
     margin: auto;
 }
-#content h2{
+
+#content h2 {
     /* margin: 0 1vw 0 5vw; */
     text-align: center;
     font-size: 2.5vw;
 }
-#content ul{
+
+#content ul {
     /* margin: 0 1vw 0 5vw; */
     text-align: center;
     font-size: 0.9rem;
 }
-#content ul li{
-    margin: 3vh 0 ;
+
+#content ul li {
+    margin: 3vh 0;
 }
-#content ul li span{
+
+#content ul li span {
     font-weight: bold;
 }
-.skills-container{
+
+.skills-container {
     height: auto;
     display: flex;
     flex-wrap: wrap;
 }
-#skills-box{
+
+#skills-box {
     /* height: 60vh; */
     width: 27vw;
     /* border: 1px solid rgb(6, 61, 94); */
@@ -261,60 +301,100 @@ h1{
     padding: 4vh 0;
     box-shadow: rgb(121, 123, 126) 1vh 2vh 4vh -1vh, rgb(255, 255, 255) -2vh -2vh 1.6vh -1vh;
 }
-#skills-box:hover{
+
+#skills-box:hover {
     box-shadow: inset 2vh 2vh 4vh -2vh rgb(121, 169, 236);
     box-shadow: rgb(121, 123, 126) inset 1vh 2vh 4vh -3vh, rgb(255, 255, 255) inset -2vh -2vh 2vh -1vh;
 
 }
-#skills-box img{
+
+#skills-box img {
     width: 6vw;
 }
-#skills-box ul li{
+
+#skills-box ul li {
     list-style-type: none;
 }
 
-#project-box{
-    /* border: 1px solid rgb(6, 61, 94); */
-    /* border-radius: 12px; */
+.project-box {
     margin: 50px auto;
     height: auto;
 }
-#content2 img:hover{
-    box-shadow: inset 2vh 2vh 4vh -2vh rgb(121, 169, 236);
-    box-shadow: rgb(121, 123, 126) inset 1vh 2vh 4vh -3vh, rgb(255, 255, 255) inset -2vh -2vh 2vh -1vh;
-    
+
+.project-box:hover {
+    /* box-shadow: rgb(121, 123, 126) inset 1vh 2vh 4vh -3vh, rgb(255, 255, 255) inset -2vh -2vh 2vh -1vh; */
+    box-shadow: 2px 2px 5px grey;
+    transition: all .5s ease-in-out;
+
 }
 
-#about-me{
+.content2:hover {
+    position: relative;
+    /* box-shadow: inset 2vh 2vh 4vh -2vh rgb(121, 169, 236); */
+    animation: flying 7s ease 1;
+    /* animation: flying .5s linear ease; */
+    /* transition: all 1s ease-in-out; */
+}
+
+@keyframes flying {
+    0% {
+        bottom: 0px;
+        left: 0px;
+    }
+
+    5% {
+        bottom: 10px;
+        left: 10px;
+    }
+    95% {
+        bottom: 10px;
+        left: 10px;
+    }
+    100% {
+        bottom: 0px;
+        left: 0px;
+    }
+}
+
+#about-me {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 18vh 8vw 10vh 8vw;
 }
-#about-pic img{
+
+#about-pic img {
     width: 22vw;
     border-radius: 50%;
 }
-#about-bio p{
+
+#about-bio p {
     margin-left: 4vw;
     text-align: justify;
 }
-#about-bio span{
+
+#about-bio span {
     color: red;
     font-weight: bold;
 }
-#content2{
+
+.content2 {
     display: flex;
     align-items: center;
     justify-content: center;
     height: auto;
+    transition: all .5s ease;
 }
-#content2 img{
+
+.content2 img {
+    position: relative;
     width: 40vw;
     /* border-radius: 12px; */
     box-shadow: rgb(121, 123, 126) 1vh 2vh 4vh -1vh, rgb(255, 255, 255) -2vh -2vh 1.6vh -1vh;
+    transition: all .5s ease;
 }
-#contact-box{
+
+#contact-box {
     height: auto;
     width: 27vw;
     /* border: 1px solid rgb(6, 61, 94); */
@@ -325,34 +405,42 @@ h1{
     box-shadow: rgb(121, 123, 126) 1vh 2vh 4vh -1vh, rgb(255, 255, 255) -2vh -2vh 1.6vh -1vh;
     /* flex-direction: column; */
 }
-#contact-box:hover{
+
+#contact-box:hover {
     box-shadow: rgb(121, 123, 126) inset 1vh 2vh 4vh -3vh, rgb(255, 255, 255) inset -2vh -2vh 2vh -1vh;
 
 }
-#contact-box img{
+
+#contact-box img {
     margin: 1px 10vw;
     width: 6vw;
 }
-#content1{
+
+#content1 {
     margin: auto;
 }
-#content1 h2{
+
+#content1 h2 {
     /* margin: 0 1vw 0 5vw; */
     text-align: center;
     font-size: 2.5vw;
 }
-#content1 ul{
+
+#content1 ul {
     margin: 3vh auto;
     text-align: center;
     font-size: 0.9rem;
 }
-#content1 ul li{
-    margin: 0 ;
+
+#content1 ul li {
+    margin: 0;
 }
-#contact-box ul li{
+
+#contact-box ul li {
     list-style-type: none;
 }
-footer{
+
+footer {
     /* background-color: rgb(104, 187, 212); */
     background: rgb(0, 0, 0);
     height: auto;
@@ -361,39 +449,46 @@ footer{
     align-items: center;
     justify-content: center;
 }
-footer #name{
+
+footer #name {
     color: white;
     font-size: 1.6rem;
-    font-weight:900;
+    font-weight: 900;
     margin-top: 5vh;
 }
+
 /* footer #name span{
     text-shadow: 0px 2px 3px white;
 } */
-#copy{
+#copy {
     font-size: .7rem;
     color: white;
 }
-#social-icons img{
+
+#social-icons img {
     height: 3vw;
     margin-bottom: 5vh;
 }
-.reveal{
+
+.reveal {
     position: relative;
     transform: translateY(100px);
     opacity: 0;
     transition: all 1s ease;
 }
-.reveal.active{
+
+.reveal.active {
     transform: translateY(0);
     opacity: 1;
 }
-.reveal1{
+
+.reveal1 {
     position: relative;
     /* transform:scale(1.5); */
     opacity: 0;
 }
-.active1{
+
+.active1 {
     /* transform: translateY(0); */
     opacity: 1;
     transition: all 1s ease-in-out;
