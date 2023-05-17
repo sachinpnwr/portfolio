@@ -478,6 +478,7 @@ footer #name {
 }
 
 .reveal.active {
+    transition-delay: .1s;
     transform: translateY(0);
     opacity: 1;
 }
