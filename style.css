@@ -180,9 +180,7 @@ header {
     color: white;
 }
 
-/* .scrolling-active #name span{
-    text-shadow: 0px 2px 3px white;
-} */
+
 #home-container {
     /* background-color: rgb(104, 187, 212); */
     background-image: linear-gradient(to bottom, rgb(109, 212, 243), black);
