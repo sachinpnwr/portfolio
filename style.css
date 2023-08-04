@@ -476,8 +476,8 @@ footer #name {
 }
 
 .reveal.active {
-    /* transition-delay: .1s; */
-    animation: Upanimation 2s ease  1 ;
+    transition-delay: .5s;
+    animation: Upanimation 2s ease .5s  1 ;
     transform: translateY(0);
     opacity: 1;
 }
