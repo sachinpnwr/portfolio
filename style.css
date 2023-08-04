@@ -470,15 +470,16 @@ footer #name {
 
 .reveal {
     position: relative;
-    /* transform: translateY(100px); */
-    /* opacity: 0; */
+    transform: translateY(100px);
+    opacity: 0;
     transition: all 1s ease;
 }
 
 .reveal.active {
-    transition-delay: .1s;
-    opacity: 1;
+    /* transition-delay: .1s; */
     animation: Upanimation 2s ease  1 ;
+    transform: translateY(0);
+    opacity: 1;
 }
 
 @keyframes Upanimation {
@@ -490,10 +491,10 @@ footer #name {
         transform: translateY(0);
         opacity: 1;
     }
-    14%{
+    12%{
         transform: translateY(35px);
     }
-    21%{
+    17%{
         transform: translateY(0);
     }
     100%{
