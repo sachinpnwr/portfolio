@@ -470,15 +470,35 @@ footer #name {
 
 .reveal {
     position: relative;
-    transform: translateY(100px);
-    opacity: 0;
+    /* transform: translateY(100px); */
+    /* opacity: 0; */
     transition: all 1s ease;
 }
 
 .reveal.active {
     transition-delay: .1s;
-    transform: translateY(0);
     opacity: 1;
+    animation: Upanimation 2s ease  1 ;
+}
+
+@keyframes Upanimation {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    7%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    14%{
+        transform: translateY(35px);
+    }
+    21%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 .reveal1 {
