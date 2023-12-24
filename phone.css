@@ -38,7 +38,8 @@ header{
 
 }
 .hi{
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     /* margin-top: -8vh; */
@@ -57,7 +58,8 @@ header{
 #profile-pic img{
     /* margin-top: 17vh; */
     margin-right: 0;
-    width: 195px;
+    height: 50vh;
+    /* width: 195px; */
     /* filter:blur(); */
 }
 h1{
